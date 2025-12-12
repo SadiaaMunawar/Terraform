@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"db_server","Source":"./modules/ec2-basic","Dir":"modules/ec2-basic"},{"Key":"db_server.ec2","Source":"./modules/ec2-basic","Dir":""},{"Key":"web_server","Source":"./modules/ec2-basic","Dir":"modules/ec2-basic"},{"Key":"web_server.ec2","Source":"./modules/ec2-basic","Dir":""}]}
