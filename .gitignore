@@ -1,0 +1,68 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+*.tfstate.*.backup
+.terraform/
+.terraform.lock.hcl
+.terraformrc
+terraform.rc
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Local configuration files (with sensitive data)
+terraform.tfvars
+terraform.tfvars.json
+.env
+.env.local
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude override files (these are usually used to override resources locally)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Logs
+*.log
+
+# Private keys (security)
+*.pem
+*.key
+*.pub
+
+# AWS credentials
+.aws/credentials
+.aws/config
+
+# Node modules (if using Node.js)
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Misc
+.cache/
+dist/
+build/
+*.egg-info/
