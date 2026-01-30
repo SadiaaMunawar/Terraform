@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <h1>DEVOPS LAB – TERRAFORM + DOCKER </h1>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Lab - Terraform Deployment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">DevOps Lab</h1>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Welcome to DevOps Lab</h2>
+                    <p>Infrastructure as Code with Terraform</p>
+                    <p class="server-info">Deployment Information</p>
+                    <div class="info-box">
+                        <p><strong>Server:</strong> <span id="hostname">Loading...</span></p>
+                        <p><strong>Environment:</strong> <span id="environment">Lab</span></p>
+                        <p><strong>Deployment:</strong> Terraform + AWS EC2</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About This Project</h2>
+                <p>This website is deployed using Terraform Infrastructure as Code on AWS EC2 instances running Amazon Linux 2 with Nginx web server.</p>
+                <div class="features">
+                    <div class="feature-card">
+                        <h3>🚀 Automated Deployment</h3>
+                        <p>Infrastructure provisioned using Terraform with remote state management in S3</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>☁️ Cloud Native</h3>
+                        <p>Built on AWS with EC2, S3, and DynamoDB for scalability and reliability</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🔄 Multi-Environment</h3>
+                        <p>Supports dev, stage, and prod environments using Terraform workspaces</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Terraform Features Demonstrated</h2>
+                <ul class="services-list">
+                    <li>✅ Infrastructure as Code (IaC)</li>
+                    <li>✅ Remote State Management with S3 + DynamoDB</li>
+                    <li>✅ Reusable Modules for EC2 Instances</li>
+                    <li>✅ Dynamic Data Sources (Latest AMI)</li>
+                    <li>✅ Remote Provisioners (Nginx Installation)</li>
+                    <li>✅ Workspace-Based Environment Separation</li>
+                    <li>✅ Lifecycle Rules and Resource Protection</li>
+                    <li>✅ Git Integration (Coming Soon)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Project Information</h2>
+                <div class="contact-info">
+                    <p><strong>Course:</strong> 5th Semester DevOps Lab</p>
+                    <p><strong>Technology Stack:</strong> Terraform, AWS, Nginx, Amazon Linux 2</p>
+                    <p><strong>Version:</strong> 1.0</p>
+                    <p><strong>Last Updated:</strong> <span id="timestamp">Loading...</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 DevOps Lab Project. All rights reserved.</p>
+            <p>This site demonstrates Infrastructure as Code principles with Terraform and AWS</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
